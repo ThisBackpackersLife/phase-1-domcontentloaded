@@ -1,6 +1,8 @@
 // Your code goes here
-document.addEventListener("DOMContentLoaded", function() {
-    const stringLine = document.querySelector("p")
-    stringLine.textContent = "This is really cool!" 
+// set up DOMContentLoaded event listener. Use the event's callback function to target the paragraph element with id="text" and replace the text with "This is really cool!"
+
+document.addEventListener("DOMContentLoaded", () => {
+    const string = document.querySelector("#text")
+    string.textContent = "This is really cool!"
 });
 
